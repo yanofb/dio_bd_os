@@ -1,4 +1,4 @@
-CREATE TABLE `OrdemServiço` (
+CREATE TABLE `OrdemServico` (
 	`id_OS` INT NOT NULL AUTO_INCREMENT,
 	`id_Cliente` INT(45) NOT NULL AUTO_INCREMENT,
 	`Equipe` varchar(45) NOT NULL AUTO_INCREMENT,
@@ -34,7 +34,7 @@ CREATE TABLE `MaodeObra` (
 	PRIMARY KEY (`id_MO`)
 );
 
-CREATE TABLE `Peças` (
+CREATE TABLE `Pecas` (
 	`id_Peça` INT NOT NULL AUTO_INCREMENT,
 	`Valor Peça` varchar(45) NOT NULL AUTO_INCREMENT,
 	`Tipo de serviço` varchar(45) NOT NULL AUTO_INCREMENT,
@@ -65,7 +65,7 @@ ALTER TABLE `InicioOS` ADD CONSTRAINT `InicioOS_fk1` FOREIGN KEY (`id_Equipe`) R
 
 ALTER TABLE `ClienteAceite` ADD CONSTRAINT `ClienteAceite_fk0` FOREIGN KEY (`id_ClienteAceite`) REFERENCES `OrdemServiço`(`id_Cliente`);
 
-ALTER TABLE `ClienteAceite` ADD CONSTRAINT `ClienteAceite_fk1` FOREIGN KEY (`id_PeçaAceite`) REFERENCES `Peças`(`id_Peça`);
+ALTER TABLE `ClienteAceite` ADD CONSTRAINT `ClienteAceite_fk1` FOREIGN KEY (`id_PeçaAceite`) REFERENCES `Pecas`(`id_Peça`);
 
 ALTER TABLE `ClienteAceite` ADD CONSTRAINT `ClienteAceite_fk2` FOREIGN KEY (`id_MOAceite`) REFERENCES `MaodeObra`(`id_MO`);
 
