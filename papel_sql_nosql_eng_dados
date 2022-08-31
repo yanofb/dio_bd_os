@@ -1,0 +1,22 @@
+Introdução MongoDB e Bancos de dados NoSQL
+
+- Sâo bancos não relacionais, os sistemas NoSQL permitem que os dados sejam armazenados usando qualquer estrutura necessária, fornecendo uma maneira de atualizar esses dados ao alterar essa estrutura/
+-Alta velocidade de criação de dados, com o uso da internet de uma forma nunca prevista, ajudou a voltar o termo NoSQL em 2009;
+-Escalabilidade NoSQL é Horizontal. Sharding é o mais conhecido;
+-shcema-free/schemaless - existem boas práticas para ser um banco performático;
+-diferentes linguagens de consulta, até mais de uma por banco;
+-BD NoSQL são Basically Available, Soft-State, Eventually Consistent;
+-Flexibilidade, escalabilidade e alta performance;
+-MongoDB utiiza o BSON = serialização codificada em binário de documentos semelhantes a JSON, podendo utilizar opções customizadas.
+
+
+
+O papel dos Bancos de Dados Relacionais (SQL) e Não Relacionais (NoSQL) no contexto de um Engenheiro de Dados.
+
+A pessoa Engenheira de Dados precisa ser boa em arquitetar sistemas distribuídos, criar pipelines confiáveis, combinar fontes de dados, criar a arquitetura de soluções, 
+entre outras construções.
+Para isso, é necessário conhecimentos avançados em criação e relacionamento entre base de dados, sejam em Bancos de Dados Relacionais (SQL) e/ou Não Relacionais (NoSQL).
+
+Obviamente, a depender da empresa o foco da pessoa Engenheira de Dados pode mudar, contudo é necessário continuar estudando e aprendendo junto com a comunidade. 
+A partir da construção desses bancos, além da administração, ferramentas e linguagens adicionais são fundamentais para aumento de perfomance, como Hadoop, Spark, Python e
+Scala, além das ferramentas de Cloud Computing. Dessa forma, a escala e eficiência buscadas pela Engenharia de Dados dependem de aprendizagem contínua.
